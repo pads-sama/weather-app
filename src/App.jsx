@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Home from "./components/Home/Home";
 
 const App = () => {
   return (
-    <div className='underline uppercase font-semibold text-red'>App</div>
-  )
-}
+    <>
+      <Home />
+    </>
+  );
+};
 
-export default App
+export default App;

@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.transition {
+    transition: all 1s ease;
+}
+
+h1,
+h2,
+h3,
+p {
+    -webkit-font-smoothing: antialiased;
+}
+
+p {
+    letter-spacing: 0.05em;
+}
