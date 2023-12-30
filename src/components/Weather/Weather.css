@@ -26,6 +26,9 @@
     background-color: rgba(241, 241, 241, 0.1);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, .5);
-    outline: 0;
+}
 
+.weather_data {
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
 }

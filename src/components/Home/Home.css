@@ -1,8 +1,8 @@
  .home_container {
-     background-image: url('../../assets/mountain-bg.webp');
+     background-image: url('../../assets/night-bg.jpg');
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: center;
+     background-position: right 45% center;
      height: 100dvh;
      width: 100%;
      z-index: -1;
