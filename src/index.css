@@ -16,3 +16,13 @@ p {
 p {
     letter-spacing: 0.05em;
 }
+
+.home_container {
+    background-image: url('./assets/night-bg.jpg');
+    background-position: right 45% center;
+    background-size: cover;
+}
+
+small {
+    font-size: 14px;
+}
