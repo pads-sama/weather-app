@@ -17,10 +17,18 @@ p {
     letter-spacing: 0.05em;
 }
 
-.home_container {
-    background-image: url('./assets/night-bg.jpg');
+.morning_bg {
+    background-image: url('./assets/morning-bg.jpg');
     background-position: right 45% center;
     background-size: cover;
+    z-index: 1;
+}
+
+.night_bg {
+    background-image: url('./assets/city-morning.png');
+    background-position: right 45% center;
+    background-size: cover;
+    z-index: 1;
 }
 
 small {
