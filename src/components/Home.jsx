@@ -31,7 +31,7 @@ const Home = () => {
   const [isDay, setIsDay] = useState("");
   const [changeBg, setChangeBg] = useState(false);
   const [isLoading, setIsLoading] = useState("false");
-  const api_key = "ef6d01f76f6ea84a6c41460f4989b1f3";
+  const api_key = import.meta.env.VITE_REACT_APP_API_KEY;
 
   const fetchWeatherData = async (city) => {
     try {
